@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background: #100c2a;  /*16  16  42 */
+	background: #fae036;  /*16  16  42 */
 }
 #title{
 	position: absolute;
@@ -19,30 +19,15 @@ body{
 }
 #c1{
 	position: absolute;
-	width: 50%;
+	width: 80%;
 	height: 90%;
 	top: 10%;
-	left: 50%;
+	left: 10%;
 	color: white;
+	display: flex;  		/**弹性布局*/
+	align-items: center;	/**水平居中*/
+	justify-content: center;/**竖直居中*/
 	overflow: hidden;
 	/*background: #ffffff;*/
 	
-}
-#l1{
-	position: absolute;
-	width: 50%;
-	height: 45%;
-	top: 10%;
-	left: 0;
-	background: #55007f;
-	overflow: hidden;
-}
-#l2{
-	position: absolute;
-	width: 50%;
-	height: 45%;
-	top: 55%;
-	left: 0;
-	background: #ff55ff;
-	overflow: hidden;
 }
