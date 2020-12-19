@@ -19,10 +19,10 @@ body{
 }
 #c1{
 	position: absolute;
-	width: 80%;
+	width: 100%;
 	height: 90%;
 	top: 10%;
-	left: 10%;
+	left: 0;
 	color: white;
 	display: flex;  		/**弹性布局*/
 	align-items: center;	/**水平居中*/
